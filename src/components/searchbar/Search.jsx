@@ -5,7 +5,7 @@ const SearchBar = () => {
   return (
     <>
       <div className="wrapper">
-        <input className="search" />
+        <input className="search" placeholder="Search a album of your choice" />
         <button className="search-btn">
           <CiSearch />
         </button>
