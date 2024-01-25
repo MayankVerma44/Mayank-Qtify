@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./button/Button";
-import SearchBar from "./searchbar/Search";
-import Logo from "./logo/Logo";
+import Button from "./Button/Button";
+import SearchBar from "./Searchbar/Search";
+import Logo from "./Logo/Logo";
 import "./NavBar.css";
 
 const NavBar = () => {
