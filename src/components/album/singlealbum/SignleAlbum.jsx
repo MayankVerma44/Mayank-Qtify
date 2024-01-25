@@ -1,5 +1,5 @@
 import React from "react";
-import "./SignleAlbum.css";
+import "./SignleAlbumcss.css";
 
 const SignleAlbum = () => {
   return (

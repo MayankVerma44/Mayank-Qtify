@@ -1,6 +1,6 @@
 import React from "react";
-import "./GridAlbum.css";
-import SignleAlbum from "../singlealbum/SignleAlbum.jsx";
+import "./GridAlbumcss.css";
+import SignleAlbum from "../singlealbum/SignleAlbum";
 
 const GridAlbum = () => {
   return (

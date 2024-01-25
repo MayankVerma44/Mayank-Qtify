@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./button/Button.jsx";
-import Logo from "./logo/Logo.jsx";
-import SearchBar from "./searchbar/Search.jsx";
-import "./NavBarCSS.css";
+import Button from "./button/Button";
+import Logo from "./logo/Logo";
+import SearchBar from "./searchbar/Search";
+import "./NavBarcss.css";
 
 const NavBar = () => {
   return (
