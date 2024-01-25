@@ -1,6 +1,8 @@
+import React from "react";
+
 import NavBar from "./Components/Navbar/NavBar";
 import Banner from "./Components/Banner/Banner";
-import GridAlbum from "../Components/Album/Gridalbum/GridAlbum";
+import GridAlbum from "./Components/Album/GridAlbum/GridAlbum";
 
 function App() {
   return (
