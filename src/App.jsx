@@ -1,6 +1,6 @@
-import NavBar from "./components/navbar/NavBar";
-import Banner from "./components/banner/Banner";
-import GridAlbum from "./components/album/gridalbum/GridAlbum";
+import NavBar from "./Components/Navbar/NavBar";
+import Banner from "./Components/Banner/Banner";
+import GridAlbum from "../Components/Album/Gridalbum/GridAlbum";
 
 function App() {
   return (
