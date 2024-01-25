@@ -1,5 +1,5 @@
 import React from "react";
-import "./Bannercss.css";
+import "./Banner.css";
 import BannerLogo from "../../assets/vibrating-headphone.png";
 const Banner = () => {
   return (

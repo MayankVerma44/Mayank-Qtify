@@ -1,5 +1,5 @@
 import React from "react";
-import "./GridAlbumcss.css";
+import "./GridAlbum.css";
 import SignleAlbum from "../SignleAlbum/SignleAlbum";
 
 const GridAlbum = () => {
