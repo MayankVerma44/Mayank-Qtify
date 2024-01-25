@@ -1,0 +1,28 @@
+.singalalgm {
+  display: flex;
+  flex-direction: column;
+}
+.singalalgm img {
+  width: 160px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+.singalalgm div {
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+  background: #fff;
+}
+.singalalgm div span {
+  display: inline-block;
+  background-color: #111;
+  padding: 7px 10px;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 12px;
+}
+p {
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0px 0px;
+}
