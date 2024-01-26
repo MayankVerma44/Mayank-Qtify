@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import BannerLogo from "../../assets/vibrating-headphone.png";
+import BannerLogo from "/public/assets/vibrating-headphone.png";
 const Banner = () => {
   return (
     <div className="Banner">
