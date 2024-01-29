@@ -4,12 +4,12 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: "eslint:recommended",
+  extends: ["eslint:recommended", "eslint-config-prettier"],
+  plugins: ["eslint-plugin-prettier"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
-  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -20,7 +20,7 @@ module.exports = {
   settings: {
     "import/resolver": {
       node: {
-        extensions: [".js", ".ts", ".tsx"],
+        extensions: [".js", ".jsx"],
         paths: ["src"],
       },
     },
@@ -33,6 +33,8 @@ module.exports = {
         allowTemplateLiterals: true,
       },
     ],
+    "prettier/prettier": ["error", { singleQuote: true }], // <-- Add a comma here
+
     semi: "off",
     "default-case": [
       "error",
