@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended", "airbnb"],
+  extends: "eslint:recommended",
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -17,7 +17,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
   settings: {
     "import/resolver": {
       node: {
