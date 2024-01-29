@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-react": "^7.33.2",
+    "lint": "eslint --ext .js,.ts,.tsx src --ignore-pattern node_modules/",
+    "test": "jest --verbose --colors --coverage"
   }
 }

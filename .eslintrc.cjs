@@ -1,26 +1,31 @@
 module.exports = {
   env: {
     browser: true,
-    commonjs: true,
     es6: true,
-    node: true,
+    jest: true,
   },
-  extends: ["react-app", "eslint:recommended", "plugin:react/recommended"],
-  parser: "babel-eslint",
+  extends: ["eslint:recommended", "plugin:react/recommended", "airbnb"],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
+  parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaVersion: 2018,
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: 2018,
     sourceType: "module",
   },
+  plugins: ["react", "@typescript-eslint"],
   settings: {
-    react: {
-      pragma: "React",
-      version: "16.8",
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".ts", ".tsx"],
+        paths: ["src"],
+      },
     },
   },
-  plugins: ["react"],
   rules: {
     quotes: [
       "error",
