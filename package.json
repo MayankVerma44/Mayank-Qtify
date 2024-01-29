@@ -47,5 +47,8 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.33.2"
-  }
+  },
+  "eslint.workingDirectories": [
+    "client"
+  ]
 }
