@@ -26,15 +26,6 @@ module.exports = {
     },
   },
   rules: {
-    quotes: [
-      "error",
-      "single",
-      {
-        allowTemplateLiterals: true,
-      },
-    ],
-    "prettier/prettier": ["error", { singleQuote: true }], // <-- Add a comma here
-
     semi: "off",
     "default-case": [
       "error",
