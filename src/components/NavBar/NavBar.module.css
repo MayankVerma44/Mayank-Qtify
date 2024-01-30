@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 0px 30px;
+  height: 74px;
+  /* height must be 74 */
+  padding: 0px 32px;
+
+  /* right and left must 32px */
 }
