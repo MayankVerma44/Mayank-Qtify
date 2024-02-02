@@ -2,15 +2,11 @@ import { ReactComponent as SeachIcon } from "../../assests/search-icon.svg";
 import SearchItem from "../SearchItem/SearchItem";
 import styles from "./SearchBar.module.css";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const SearchBar = ({ placeholder, data }) => {
   const [filteredData, setFilteredData] = useState(null);
   const [searchValue, setSearchValue] = useState("");
-
-  // useEffect(()=>{
-  //   setFilteredData(data);
-  // },[data])
 
   const onChangeHandler = (e) => {
     setSearchValue(e.target.value);
@@ -63,7 +59,7 @@ const SearchBar = ({ placeholder, data }) => {
               style={{
                 color: "white",
                 display: "flex",
-                justifyContent: "center"
+                justifyContent: "center",
               }}
             >
               No Albums Found
