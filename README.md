@@ -2,9 +2,7 @@
 
 Qtify is a clone of Spotify built with ReactJS and utilizes the API to fetch music data.
 
-## Live Demo
 
-Check out the live demo (https://qtifydpk.netlify.app/).
 
 ## Features
 
@@ -15,4 +13,3 @@ Check out the live demo (https://qtifydpk.netlify.app/).
 ## Technologies Used
 
 - ReactJS
-- API
